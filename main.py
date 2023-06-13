@@ -7,9 +7,8 @@ from PicoOLED1point3spi import OLED_1inch3
 import micropython
 import errno
 
+# Proportional Integral Derivative (PID) logic adapted from this repo: https://github.com/veebch/heat-o-matic/blob/main/main.py
 
-#dbName = "Internal.db"
-#saveReadings = True                 # Save readings to internal database
 
 # Global variables and constants
 Pin_Interrupt = False
